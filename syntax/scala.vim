@@ -136,7 +136,7 @@ syn sync fromstart
 
 " map Scala groups to standard groups
 hi link scalaKeyword Keyword
-hi link scalaKeywordModifier Function
+hi link scalaKeywordModifier Keyword
 hi link scalaAnnotation Include
 hi link scalaPackage Include
 hi link scalaImport Include
@@ -175,9 +175,9 @@ hi link scalaObject Keyword
 hi link scalaTrait Keyword
 hi link scalaDefName Function
 hi link scalaDefSpecializer Function
-hi link scalaClassName Special
-hi link scalaClassSpecializer Special
-hi link scalaConstructor Special
+hi link scalaClassName Normal
+hi link scalaClassSpecializer Normal
+hi link scalaConstructor Normal
 hi link scalaConstructorSpecializer scalaConstructor
 
 let b:current_syntax = "scala"
